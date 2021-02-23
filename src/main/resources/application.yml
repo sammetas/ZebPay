@@ -1,0 +1,12 @@
+spring:
+      application:
+                name: zebpay-uat
+
+server:
+  port: 8084
+
+management.endpoints.web.exposure.include: "*"
+
+zebpay:
+  ticker:
+      url: https://www.zebapi.com/api/v1/market/
