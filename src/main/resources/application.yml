@@ -10,3 +10,11 @@ management.endpoints.web.exposure.include: "*"
 zebpay:
   ticker:
       url: https://www.zebapi.com/api/v1/market/
+eureka:
+  serviceUrl:
+    default: http://localhost:8761/eureka/
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    instance:
+      preferIpAddress: true
